@@ -1,10 +1,14 @@
+import { Fragment } from 'react'
 import './App.css';
+import InputTodo from './Components/InputTodo';
 
 function App() {
   return (
-    <div className="App">
-      123
-    </div>
+    <Fragment>
+      <div className='container'>
+        <InputTodo />
+      </div>
+    </Fragment>
   );
 }
 
